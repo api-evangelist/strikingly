@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Strikingly",
+  "description": "Strikingly is a mobile-first website builder platform that enables users to create gorgeous, mobile-optimized websites without coding. The platform provides tools for managing site content, sections, blog posts, store products, form submissions, and membership settings.",
+  "url": "https://www.strikingly.com",
+  "applicationCategory": "WebApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.strikingly.com/s/pricing"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/striking-ly",
+    "https://x.com/strikingly",
+    "https://github.com/strikingly"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "Strikingly",
+    "url": "https://www.strikingly.com",
+    "sameAs": [
+      "https://www.linkedin.com/company/striking-ly",
+      "https://x.com/strikingly",
+      "https://github.com/strikingly"
+    ]
+  },
+  "featureList": [
+    "Mobile-first website builder",
+    "No-code website creation",
+    "Blog management",
+    "eCommerce store management",
+    "Membership management",
+    "Form submissions",
+    "Site content management"
+  ],
+  "supportingData": {
+    "@type": "DataCatalog",
+    "name": "Strikingly Support Documentation",
+    "url": "https://support.strikingly.com/hc/en-us"
+  }
+}
