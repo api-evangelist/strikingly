@@ -1,0 +1,83 @@
+name: Strikingly Rate Limits
+description: Strikingly does not publish explicit API rate limits for their internal platform APIs. Rate limiting is enforced implicitly through plan-based quotas on sites, pages, products, bandwidth, and storage rather than through explicit API call limits. The platform uses OAuth-based authentication for programmatic access.
+url: https://support.strikingly.com/hc/en-us
+limits:
+  - name: Bandwidth Limit (Free)
+    description: Monthly bandwidth cap for free plan sites.
+    quota: 5 GB
+    unit: month
+    plan: Free
+  - name: Bandwidth Limit (Pro and above)
+    description: Unlimited bandwidth for Pro and VIP plans.
+    quota: Unlimited
+    unit: month
+    plan: Pro, VIP
+  - name: Storage Limit (Free)
+    description: Per-site storage cap for the free plan.
+    quota: 500 MB
+    unit: site
+    plan: Free
+  - name: Storage Limit (Pro)
+    description: Per-site storage cap for the Pro plan.
+    quota: 20 GB
+    unit: site
+    plan: Pro
+  - name: Storage Limit (VIP)
+    description: Per-site storage cap for the VIP plan.
+    quota: 100 GB
+    unit: site
+    plan: VIP
+  - name: Sites Limit (Free)
+    description: Number of free sites allowed on the free plan.
+    quota: Unlimited
+    unit: account
+    plan: Free
+  - name: Sites Limit (Limited)
+    description: Number of sites allowed on the Limited plan.
+    quota: 2
+    unit: account
+    plan: Limited
+  - name: Sites Limit (Pro)
+    description: Number of Pro-tier sites allowed on the Pro plan.
+    quota: 3
+    unit: account
+    plan: Pro
+  - name: Sites Limit (VIP)
+    description: Number of VIP-tier sites allowed on the VIP plan.
+    quota: 5
+    unit: account
+    plan: VIP
+  - name: Pages Per Site (Free)
+    description: Maximum number of pages per site on the free plan.
+    quota: 5
+    unit: site
+    plan: Free
+  - name: Pages Per Site (Pro)
+    description: Maximum number of pages per site on the Pro plan.
+    quota: 100
+    unit: site
+    plan: Pro
+  - name: Products (Free)
+    description: Maximum number of store products on the free plan.
+    quota: 1
+    unit: account
+    plan: Free
+  - name: Products (Pro)
+    description: Maximum number of store products on the Pro plan.
+    quota: 300
+    unit: account
+    plan: Pro
+  - name: Products (VIP)
+    description: Maximum number of store products on the VIP plan.
+    quota: 500
+    unit: account
+    plan: VIP
+  - name: Active Contacts (VIP)
+    description: Maximum number of active contacts (for memberships and newsletters) on the VIP plan.
+    quota: 2000
+    unit: account
+    plan: VIP
+notes:
+  - Strikingly does not publish specific HTTP API request rate limits in their public documentation.
+  - Rate limiting is applied implicitly through plan-tier resource quotas.
+  - Custom code embedding (Pro and above) allows integration with third-party APIs that may have their own rate limits.

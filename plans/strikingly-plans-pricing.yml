@@ -1,0 +1,99 @@
+name: Strikingly Plans and Pricing
+description: Strikingly offers four pricing tiers including a free plan, a Limited plan for basic needs, a Pro plan for growing sites, and a VIP plan for advanced business use. All plans support website creation with varying limits on sites, pages, products, storage, and bandwidth.
+url: https://www.strikingly.com/s/pricing
+plans:
+  - name: Free
+    description: Forever free plan for getting started with basic website creation under a Strikingly.com subdomain.
+    price: 0
+    unit: month
+    currency: USD
+    features:
+      - Unlimited free sites
+      - Up to 5 pages per site
+      - 500 MB storage per site
+      - 5 GB monthly bandwidth
+      - Sell 1 product
+      - 5% transaction fee
+      - 24/7 support
+      - Strikingly.com subdomain only
+  - name: Limited
+    description: Entry-level paid plan with custom domain support and basic ecommerce features.
+    price: 8
+    unit: month
+    currency: USD
+    billingOptions:
+      - Billed annually at $96/year
+      - Monthly option at $12/month
+      - 5-year option at $6/month
+    features:
+      - 2 sites
+      - Custom domain connection
+      - Free SSL certificate
+      - Free domain for 1 year
+      - 1 product
+      - 5% transaction fee
+      - 24/7 support
+  - name: Pro
+    description: Most popular plan for growing websites and businesses with full ecommerce and membership capabilities.
+    price: 16
+    unit: month
+    currency: USD
+    billingOptions:
+      - Billed annually at $192/year
+      - Monthly option at $20/month
+      - 5-year option at $11.20/month
+    features:
+      - 3 Pro sites + unlimited free sites
+      - Custom domain connection
+      - Free SSL and free domain (1 year)
+      - 20 GB storage per site
+      - Unlimited bandwidth
+      - Up to 100 pages per site
+      - Sell up to 300 products
+      - 2% transaction fee
+      - Remove Strikingly branding
+      - Custom forms
+      - Password protection
+      - Site memberships with paid subscriptions
+      - Product reviews
+      - Pop-up marketing tools
+      - Site search
+      - Custom code embedding
+      - Restore historical versions
+      - 24/7 chat support
+  - name: VIP
+    description: Advanced plan for power users and large businesses with maximum sites, products, contacts, and priority support.
+    price: 49
+    unit: month
+    currency: USD
+    billingOptions:
+      - Billed annually at $588/year
+      - Monthly option at $59/month
+      - 5-year option at $34.40/month
+    features:
+      - 5 VIP sites
+      - All Pro plan features
+      - 100 GB storage per site
+      - 2,000 active contacts
+      - Sell up to 500 products
+      - 0% transaction fee
+      - Multiple membership tiers
+      - Multi-language auto-translation
+      - Newsletter capability
+      - Live chat widget
+      - Priority service and phone support
+      - Dedicated account manager
+addons:
+  - name: Custom Domain
+    price: 24.95
+    unit: year
+    currency: USD
+  - name: Custom Email
+    price: 25
+    unit: year
+    currency: USD
+  - name: Audience Plan
+    description: Includes live chat, email campaigns, and memberships
+    price: 10
+    unit: month
+    currency: USD

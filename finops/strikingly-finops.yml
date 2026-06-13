@@ -1,0 +1,57 @@
+name: Strikingly FinOps
+description: Financial operations considerations for Strikingly, covering cost optimization strategies, transaction fees, billing cycles, and total cost of ownership for teams using the Strikingly platform to manage websites, ecommerce, and memberships.
+url: https://www.strikingly.com/s/pricing
+costFactors:
+  - name: Subscription Plan
+    description: Primary cost is the monthly or annual subscription plan (Free, Limited, Pro, VIP). Annual billing provides significant savings versus monthly billing.
+    type: Recurring
+  - name: Transaction Fees
+    description: Strikingly charges transaction fees on ecommerce sales. Free and Limited plans incur 5%, Pro plans 2%, and VIP plans 0%. Higher transaction volume may justify upgrading to a higher plan to reduce per-transaction costs.
+    type: Variable
+  - name: Domain Registration
+    description: Custom domain costs approximately $24.95/year if not included with the plan or registered externally.
+    type: Recurring
+  - name: Custom Email
+    description: Professional email hosting add-on costs $25/year per account.
+    type: Recurring
+  - name: Audience Plan Add-on
+    description: Optional add-on for live chat, email campaigns, and advanced membership features at $10/month.
+    type: Recurring
+optimization:
+  - name: Annual Billing
+    description: Choose annual billing to save approximately 20% versus monthly billing across all plans. A 5-year plan provides up to 43% savings versus monthly pricing.
+    savings: Up to 43% versus monthly billing
+  - name: Transaction Fee Optimization
+    description: For high-volume stores, calculate whether upgrading to Pro (2% fee) or VIP (0% fee) saves more than the additional subscription cost based on monthly sales volume.
+    formula: "Upgrade to Pro when: monthly_sales * 0.03 > (pro_plan_cost - limited_plan_cost); Upgrade to VIP when: monthly_sales * 0.02 > (vip_plan_cost - pro_plan_cost)"
+  - name: Site Consolidation
+    description: The Pro plan allows 3 sites and VIP allows 5 sites. Consolidating multiple sites onto a single account plan is more cost-effective than managing separate subscriptions.
+  - name: Free Sites
+    description: Pro plan includes unlimited free (subdomain) sites in addition to the 3 Pro sites, enabling testing and staging environments at no additional cost.
+billing:
+  - type: Monthly
+    description: Pay month-to-month with flexibility to cancel anytime. Higher per-month cost.
+  - type: Annual
+    description: Pay once per year at a discounted rate versus monthly billing.
+  - type: 5-Year
+    description: Maximum commitment option with the deepest discount, up to 43% savings versus monthly billing.
+pricing:
+  - plan: Free
+    monthly: 0
+    annual: 0
+  - plan: Limited
+    monthly: 12
+    annual: 96
+    annualPerMonth: 8
+    fiveYear: 6
+  - plan: Pro
+    monthly: 20
+    annual: 192
+    annualPerMonth: 16
+    fiveYear: 11.20
+  - plan: VIP
+    monthly: 59
+    annual: 588
+    annualPerMonth: 49
+    fiveYear: 34.40
+currency: USD
