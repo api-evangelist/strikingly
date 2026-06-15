@@ -1,27 +1,50 @@
 {
   "source": "https://www.strikingly.com/blog",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "6 Simple Steps for Better Website Accessibility Optimization",
       "url": "https://www.strikingly.com/blog/posts/6-simple-steps-better-website-accessibility-optimization",
       "date": "2026-06-07",
-      "categories": ["Tips and Tricks", "Promote Your Site", "Building Your Site"],
+      "categories": [
+        "Tips and Tricks",
+        "Promote Your Site",
+        "Building Your Site"
+      ],
       "summary": "Practical strategies for improving website inclusivity through keyboard navigation, color contrast, screen reader support, and regular testing using tools like Google Lighthouse and WAVE."
     },
     {
       "title": "Master Business Website Engagement: 7 Tips for Fast Results",
       "url": "https://www.strikingly.com/blog/posts/master-business-website-engagement-7-tips-fast-results",
       "date": "2026-06-07",
-      "categories": ["Tips and Tricks", "Promote Your Site", "Entrepreneurship"],
+      "categories": [
+        "Tips and Tricks",
+        "Promote Your Site",
+        "Entrepreneurship"
+      ],
       "summary": "Techniques for encouraging meaningful visitor interaction and exploration across business website pages."
     },
     {
       "title": "8 Essential Elements of Successful Digital Campaign Landing Pages",
       "url": "https://www.strikingly.com/blog/posts/8-essential-elements-successful-digital-campaign-landing-pages",
       "date": "2026-06-07",
-      "categories": ["Tips and Tricks", "Design Inspiration", "Building Your Site"],
+      "categories": [
+        "Tips and Tricks",
+        "Design Inspiration",
+        "Building Your Site"
+      ],
       "summary": "Landing page best practices for converting advertising efforts into engagement, including matching page copy with promotional messaging."
     }
-  ]
+  ],
+  "repo": "strikingly",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/striking-ly",
+      "feed_url": "https://www.linkedin.com/company/striking-ly",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
