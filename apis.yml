@@ -1,7 +1,7 @@
 aid: strikingly
 name: Strikingly
 description: Strikingly is a mobile-first website builder platform that enables users to create gorgeous, mobile-optimized websites without coding. The platform provides tools for managing site content, sections, blog posts, store products, form submissions, and membership settings through its web interface and internal REST APIs.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/strikingly/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
