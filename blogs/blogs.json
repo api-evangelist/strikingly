@@ -2,17 +2,17 @@
   "repo": "strikingly",
   "feeds": [
     {
-      "source": "https://www.strikingly.com/blog",
+      "source": "https://www.strikingly.com/blog/blog/feed/",
       "feed_url": "https://www.strikingly.com/blog/blog/feed/",
       "title": "",
-      "saved": 9,
-      "method": "discovered"
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://www.linkedin.com/company/striking-ly",
       "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T12:03:07Z",
-  "post_count": 12
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 22
 }
