@@ -1,6 +1,17 @@
 aid: strikingly
 name: Strikingly
 description: Strikingly is a mobile-first website builder platform that enables users to create gorgeous, mobile-optimized websites without coding. The platform provides tools for managing site content, sections, blog posts, store products, form submissions, and membership settings through its web interface and internal REST APIs.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
