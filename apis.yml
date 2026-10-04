@@ -48,7 +48,6 @@ apis:
     name: Strikingly Site Management API
     description: Internal REST API for managing Strikingly website content, sections, blog posts, store products, form submissions, and membership settings. Access is provided through the Strikingly platform using OAuth-based authentication.
     humanURL: https://support.strikingly.com/hc/en-us
-    baseURL: https://www.strikingly.com
     tags:
       - Site Content
       - Blog Posts
