@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/strikingly/integrations
+- https://n8n.io/integrations/strikingly/
+- https://composio.dev/toolkits/strikingly
+- https://monid.ai/tools/strikingly
+checked:
+- https://composio.dev/toolkits/strikingly
+- https://monid.ai/tools/strikingly
+- https://n8n.io/integrations/strikingly/
+- https://zapier.com/apps/strikingly/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
