@@ -66,29 +66,103 @@
 
 Strikingly is a mobile-first website builder platform that enables users to create gorgeous, mobile-optimized websites without coding. The platform provides tools for managing site content, sections, blog posts, store products, form submissions, and membership settings through its web interface and internal REST APIs.
 
-## Links
+**Areas:** Website Builder · CMS · Blogging · E-Commerce · Membership · No-Code
 
-- **Website:** https://www.strikingly.com
-- **Documentation:** https://support.strikingly.com/hc/en-us
-- **Pricing:** https://www.strikingly.com/s/pricing
-- **Blog:** https://www.strikingly.com/blog
-- **GitHub:** https://github.com/strikingly
-- **LinkedIn:** https://www.linkedin.com/company/striking-ly
-- **X/Twitter:** https://x.com/strikingly
-- **Status:** https://x.com/strikinglystat
+## Strikingly on APIs.io
 
-## Plans
+Everything profiled for Strikingly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/strikingly/](https://apis.io/providers/strikingly/)** — or go straight to one of the APIs or properties below.
 
-- **Free** - $0/month — Unlimited sites, 5 pages, 500 MB storage, 5 GB bandwidth, 1 product, 5% transaction fee
-- **Limited** - $8/month (annual) — 2 sites, custom domain, 1 product, 5% transaction fee
-- **Pro** - $16/month (annual) — 3 sites, 100 pages, 20 GB storage, 300 products, 2% transaction fee, memberships, custom code
-- **VIP** - $49/month (annual) — 5 sites, 100 GB storage, 500 products, 0% transaction fee, 2,000 contacts, multi-language, newsletter
+### APIs (1)
 
-## APIs.json
+- [Strikingly Site Management API](https://apis.io/apis/strikingly/strikingly-site-management-api/) — Internal REST API for managing Strikingly website content, sections, blog posts, store products, form submissions, and membership settings. Access is…
 
-This repository contains an APIs.json 0.19 profile for Strikingly.
+### Published properties
 
-- [apis.yml](apis.yml)
-- [plans/strikingly-plans-pricing.yml](plans/strikingly-plans-pricing.yml)
-- [rate-limits/strikingly-rate-limits.yml](rate-limits/strikingly-rate-limits.yml)
-- [finops/strikingly-finops.yml](finops/strikingly-finops.yml)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Strikingly Domain Security](https://apis.io/security/strikingly/strikingly-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Strikingly Plans Pricing](https://apis.io/plans/strikingly/strikingly-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Strikingly Rate Limits](https://apis.io/rate-limits/strikingly/strikingly-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Strikingly Finops](https://apis.io/finops/strikingly/strikingly-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.strikingly.com)
+- [Documentation](https://support.strikingly.com/hc/en-us)
+- [Pricing](https://www.strikingly.com/s/pricing)
+- [Blog](https://www.strikingly.com/blog)
+- [Status](https://x.com/strikinglystat)
+
+## API Evangelist rating
+
+**Kin Score 14.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/strikingly/](https://apis.io/providers/strikingly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Strikingly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/strikingly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
